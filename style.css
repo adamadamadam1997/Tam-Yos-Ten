@@ -112,6 +112,7 @@ header h1 {
   border-radius: 3px;
   background-color: #6f6f6f;
   transition: all 0.3s ease;
+  z-index: 10000;
 }
 
 .menuBtn.open .line:nth-child(1) {
