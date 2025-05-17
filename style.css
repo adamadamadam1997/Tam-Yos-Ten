@@ -108,7 +108,7 @@ header h1 {
 
 .line {
   display: block;
-  height: 1px;
+  height: 3px;
   border-radius: 3px;
   background-color: #6f6f6f;
   transition: all 0.3s ease;
