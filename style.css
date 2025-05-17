@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes dance {
-  0% { transform: translateY(0) rotate(-5deg); }
-  100% { transform: translateY(-15px) rotate(5deg); }
+  0% { transform: translateY(15px) rotate(-10deg); }
+  100% { transform: translateY(-15px) rotate(10deg); }
 }
 
 #content {
