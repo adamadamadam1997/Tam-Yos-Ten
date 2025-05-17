@@ -1,3 +1,15 @@
+window.addEventListener("load", () => {
+    const loading = document.getElementById("loading");
+    const content = document.getElementById("content");
+  
+    loading.classList.add("fade-out");
+  
+    setTimeout(() => {
+      loading.style.display = "none";
+      content.style.display = "block";
+    }, 1000);
+  });
+
 const menuBtn = document.querySelector(".menuBtn");
 const nav = document.querySelector("nav");
 const iframe = document.querySelector("iframe");

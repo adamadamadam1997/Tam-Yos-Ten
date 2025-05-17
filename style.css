@@ -61,6 +61,37 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(251, 139, 64);
 }
 
+#loading {
+  position: fixed;
+  inset: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1s ease;
+}
+
+#loading.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sandal {
+  width: 100px;
+  animation: dance 0.6s infinite alternate ease-in-out;
+}
+
+@keyframes dance {
+  0% { transform: translateY(0) rotate(-5deg); }
+  100% { transform: translateY(-15px) rotate(5deg); }
+}
+
+#content {
+  display: none;
+}
+
 #home {
     overflow: hidden;
 }
