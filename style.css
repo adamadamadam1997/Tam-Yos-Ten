@@ -103,7 +103,7 @@ header h1 {
   justify-content: space-between;
   cursor: pointer;
   background: transparent;
-  z-index: 1100;
+  z-index: 2000;
 }
 
 .line {
